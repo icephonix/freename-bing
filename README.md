@@ -277,7 +277,8 @@ $ cd /data/wwwroot/freenom/ && php run
 ![同意启用 Actions](https://s1.ax1x.com/2020/07/09/UeRusP.png "同意启用 Actions")
 
 4、同意启用 Actions 后，参照下图，重新启用 scheduled workflows，即工作流程的计划任务
-*根据官方文档，`When a public repository is forked, scheduled workflows are disabled by default.` ，故必须有此步骤才能让 fork 的仓库的 Github Actions 的定时任务生效。*
+
+*根据 [官方文档](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)，`When a public repository is forked, scheduled workflows are disabled by default.` 故必须有此步骤才能让 fork 的仓库的 Github Actions 的定时任务生效。*
 
 ![启用 scheduled workflows](https://s3.ax1x.com/2021/02/21/yTu0kq.png "启用 scheduled workflows")
 
