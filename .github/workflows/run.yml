@@ -14,7 +14,6 @@
 
 name: Run it on action
 
-
 on:
   push:
     branches:
