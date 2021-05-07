@@ -22,6 +22,7 @@ on:
     - cron: 00 00 * * *
   watch:
     types: [started]
+    
 jobs:
   run-it:
     runs-on: ubuntu-18.04
